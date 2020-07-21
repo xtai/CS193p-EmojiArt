@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct EmojiArt {
+struct EmojiArt: Codable {
     var backgroundURL: URL?
     var emojis = [Emoji]()
     
-    struct Emoji: Identifiable {
+    struct Emoji: Identifiable, Codable, Hashable {
         let text: String
         var x: Int
         var y: Int
@@ -26,6 +26,20 @@ struct EmojiArt {
             self.id = id
         }
     }
+    
+    var json: Data? {
+        return try? JSONEncoder().encode(self)
+    }
+    
+    init?(json: Data?) {
+        if json != nil, let newEmojiArt = try? JSONDecoder().decode(EmojiArt.self, from: json!) {
+            self = newEmojiArt
+        } else {
+            return nil
+        }
+    }
+    
+    init() { }
     
     private var uniqueEmojiId = 0
     
