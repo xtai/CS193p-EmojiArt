@@ -16,6 +16,7 @@
 		3369D83D24C118290065020A /* EmojiArtExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3369D83C24C118290065020A /* EmojiArtExtensions.swift */; };
 		33AC810C24C2A936008CF34C /* OptionalImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AC810B24C2A936008CF34C /* OptionalImage.swift */; };
 		33AC810E24C2ADF7008CF34C /* AnimatableSystemFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AC810D24C2ADF7008CF34C /* AnimatableSystemFontModifier.swift */; };
+		33F6093F24C8069B00107EFF /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F6093E24C8069B00107EFF /* Blur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3369D83C24C118290065020A /* EmojiArtExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtExtensions.swift; sourceTree = "<group>"; };
 		33AC810B24C2A936008CF34C /* OptionalImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalImage.swift; sourceTree = "<group>"; };
 		33AC810D24C2ADF7008CF34C /* AnimatableSystemFontModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableSystemFontModifier.swift; sourceTree = "<group>"; };
+		33F6093E24C8069B00107EFF /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				3369D83A24C116910065020A /* EmojiArt.swift */,
 				3334A3BF24C11137005B18C2 /* EmojiArtDocument.swift */,
 				3334A3B224C110BE005B18C2 /* EmojiArtDocumentView.swift */,
+				33F6093E24C8069B00107EFF /* Blur.swift */,
 				33AC810B24C2A936008CF34C /* OptionalImage.swift */,
 				33AC810D24C2ADF7008CF34C /* AnimatableSystemFontModifier.swift */,
 				3369D83C24C118290065020A /* EmojiArtExtensions.swift */,
@@ -155,6 +158,7 @@
 			files = (
 				33AC810E24C2ADF7008CF34C /* AnimatableSystemFontModifier.swift in Sources */,
 				3369D83B24C116910065020A /* EmojiArt.swift in Sources */,
+				33F6093F24C8069B00107EFF /* Blur.swift in Sources */,
 				3369D83D24C118290065020A /* EmojiArtExtensions.swift in Sources */,
 				3334A3B324C110BE005B18C2 /* EmojiArtDocumentView.swift in Sources */,
 				33AC810C24C2A936008CF34C /* OptionalImage.swift in Sources */,

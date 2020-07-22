@@ -8,6 +8,16 @@
 
 import SwiftUI
 
+extension Set where Element: Identifiable {
+    mutating func toggleMatching(_ item: Element) {
+        if self.contains(matching: item) {
+            self.remove(at: self.firstIndex(matching: item)!)
+        } else {
+            self.insert(item)
+        }
+    }
+}
+
 extension Collection where Element: Identifiable {
     func firstIndex(matching element: Element) -> Self.Index? {
         firstIndex(where: { $0.id == element.id })
